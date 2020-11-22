@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/App_background"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/idk"
+        android:layout_weight="0.01"
+        android:src="@mipmap/school_logo_foreground"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:id="@+id/preguntes"
+        android:textColor="@color/Question_text"
+        android:textStyle="bold|italic"
+        android:shadowColor="@android:color/white"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="20"
+
+        />
+
+
+
+    <TextView
+        android:id="@+id/questionsleft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.05"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/Progress_text"
+        />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+    <Button
+        android:id="@+id/botoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/TRUE"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_margin="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/botoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/FALSE"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_margin="15dp"
+
+        />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+         >
+
+    <Button
+        android:id="@+id/botoC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/FALSE"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_margin="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/botoD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:text="@string/FALSE"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:layout_margin="15dp"
+
+        />
+
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">AndroidQuiz</string>
+    <string name="a_constraintlayout_is_an_example_of_layout">A constraintLayout is an example of Layout?</string>
+    <string name="TRUE">TRUE</string>
+    <string name="FALSE">FALSE</string>
+    <string name="question_x_out_of_x">Question X out of X.</string>
+    <string name="dialog_message">Welcome to Alert Dialog</string>
+    <string name="dialog_title">Javatpoint Alert Dialog</string>
+    <string name="idk">idk</string>
+    <string name="hint">HINT</string>
+    <string-array
+        name="preguntes">
+        <item>Where is Mount Olympus?</item>
+        <item>Where is the Grand Canyon?</item>
+        <item>Where is Mongolia?</item>
+        <item>Where is Mexico?</item>
+        <item>Where is Germany?</item>
+        <item>Where is the Sahara Desert?</item>
+        <item>Where is Korea?</item>
+        <item>Where is Canada?</item>
+        <item>Where is Poland?</item>
+        <item>Where is Japan?</item>
+        <item>Where is Peru?</item>
+    </string-array>
+    <string-array
+        name="respostes">
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

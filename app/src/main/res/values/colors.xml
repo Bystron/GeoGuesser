@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="App_background">#ffccff</color>
+    <color name="Question_text">#000000</color>
+    <color name="Progress_text">#212121</color>
+    <color name="True_button">#66ff66</color>
+    <color name="False_button">#ff4d4d</color>
+    <color name="Neutral_button">#7B68EE</color>
+</resources>
